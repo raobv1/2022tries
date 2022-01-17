@@ -1,1 +1,152 @@
-test
+#!/bin/bash
+
+sudo yum update -y
+
+
+cat << EOF > elasticsearch.yml
+path.data: /var/lib/elasticsearch
+path.logs: /var/log/elasticsearch
+network.host: 0.0.0.0
+http.port: 9200
+discovery.type: single-node
+xpack.security.enabled: false
+EOF
+
+cat << EOF > filebeat.yml
+- type: log
+
+  enabled: true
+
+  paths:
+    - /var/log/nginx/*.log
+
+- type: filestream
+  enabled: false
+
+  paths:
+    - /var/log/*.log
+
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+
+
+setup.template.settings:
+  index.number_of_shards: 1
+
+
+setup.kibana:
+
+  host: "localhost:5601"
+
+output.elasticsearch:
+    hosts: ["localhost:9200"]
+
+processors:
+  - add_host_metadata:
+      when.not.contains.tags: forwarded
+  - add_cloud_metadata: ~
+  - add_docker_metadata: ~
+  - add_kubernetes_metadata: ~
+EOF
+
+cat << EOF > kibana.yml
+server.port: 5601
+
+server.host: "0.0.0.0"
+
+server.name: "Kibana Server"
+
+elasticsearch.hosts: ["http://localhost:9200"]
+EOF
+
+cat << EOF > logstash.conf
+path.data: /var/lib/logstash
+path.logs: /var/log/logstash
+EOF
+
+cat << EOF > nginx.conf
+user nginx;
+worker_processes auto;
+error_log /var/log/nginx/error.log;
+pid /run/nginx.pid;
+
+include /usr/share/nginx/modules/*.conf;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile            on;
+    tcp_nopush          on;
+    tcp_nodelay         on;
+    keepalive_timeout   65;
+    types_hash_max_size 4096;
+
+    include             /etc/nginx/mime.types;
+    default_type        application/octet-stream;
+
+    include /etc/nginx/conf.d/*.conf;
+
+    server {
+        listen       80;
+        listen       443;
+        server_name  _;
+        root         /usr/share/nginx/html;
+
+        include /etc/nginx/default.d/*.conf;
+
+        error_page 404 /404.html;
+        location = /404.html {
+        }
+
+        error_page 500 502 503 504 /50x.html;
+        location = /50x.html {
+        }
+	location / {
+	  proxy_pass http://127.0.0.1:5601;
+	}
+    }
+}
+EOF
+
+
+sudo yum install java-1.8.0-openjdk -y
+sudo rpm -i https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.16.2-x86_64.rpm
+sudo systemctl daemon-reload
+sudo systemctl enable elasticsearch.service
+sudo sed -i 's@-Xms1g@-Xms2g@g' /etc/elasticsearch/jvm.options
+sudo sed -i 's@-Xmx1g@-Xmx2g@g' /etc/elasticsearch/jvm.options
+sudo rm /etc/elasticsearch/elasticsearch.yml
+sudo cp elasticsearch.yml /etc/elasticsearch/
+sudo systemctl start elasticsearch.service
+
+
+sudo rpm -i https://artifacts.elastic.co/downloads/logstash/logstash-7.16.2-linux-x86_64.tar.gz
+sudo cp logstash.conf /etc/logstash/conf.d/logstash.conf
+sudo systemctl start logstash.service
+
+sudo rpm -i https://artifacts.elastic.co/downloads/kibana/kibana-7.16.2-x86_64.rpm
+sudo rm /etc/kibana/kibana.yml
+sudo cp kibana.yml /etc/kibana/
+sudo systemctl start kibana
+
+sudo rpm -i https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.16.2-x86_64.rpm
+sudo sed -i 's@kibana_ip@${aws_instance.elk_server[0].public_ip}@g' filebeat.yml
+sudo sed -i 's@logstash_ip@${aws_instance.elk_server[0].public_ip}@g' filebeat.yml
+sudo rm /etc/filebeat/filebeat.yml
+sudo cp filebeat.yml /etc/filebeat/
+sudo systemctl start filebeat.service
+
+sudo amazon-linux-extras install nginx1
+sudo yum install -y nginx
+sudo systemctl enable nginx
+sudo cp nginx.conf /etc/nginx/
+sudo systemctl start nginx
