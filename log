@@ -1,0 +1,717 @@
+t) for package: gtk2-2.24.31-1.amzn2.0.2.x86_64
+[   89.669757] cloud-init[2606]: ---> Package java-1.8.0-openjdk-headless.x86_64 1:1.8.0.312.b07-1.amzn2.0.2 will be installed
+[   89.674758] cloud-init[2606]: --> Processing Dependency: tzdata-java >= 2021a for package: 1:java-1.8.0-openjdk-headless-1.8.0.312.b07-1.amzn2.0.2.x86_64
+[   89.680304] cloud-init[2606]: --> Processing Dependency: copy-jdk-configs >= 3.3 for package: 1:java-1.8.0-openjdk-headless-1.8.0.312.b07-1.amzn2.0.2.x86_64
+[   89.685927] cloud-init[2606]: --> Processing Dependency: pcsc-lite-libs(x86-64) for package: 1:java-1.8.0-openjdk-headless-1.8.0.312.b07-1.amzn2.0.2.x86_64
+[   89.691611] cloud-init[2606]: --> Processing Dependency: log4j-cve-2021-44228-cve-mitigations for package: 1:java-1.8.0-openjdk-headless-1.8.0.312.b07-1.amzn2.0.2.x86_64
+[   89.697585] cloud-init[2606]: --> Processing Dependency: lksctp-tools(x86-64) for package: 1:java-1.8.0-openjdk-headless-1.8.0.312.b07-1.amzn2.0.2.x86_64
+[   89.703086] cloud-init[2606]: --> Processing Dependency: jpackage-utils for package: 1:java-1.8.0-openjdk-headless-1.8.0.312.b07-1.amzn2.0.2.x86_64
+[   89.708458] cloud-init[2606]: ---> Package libX11.x86_64 0:1.6.7-3.amzn2.0.2 will be installed
+[   89.711977] cloud-init[2606]: --> Processing Dependency: libX11-common >= 1.6.7-3.amzn2.0.2 for package: libX11-1.6.7-3.amzn2.0.2.x86_64
+[   89.716849] cloud-init[2606]: --> Processing Dependency: libxcb.so.1()(64bit) for package: libX11-1.6.7-3.amzn2.0.2.x86_64
+[   89.721508] cloud-init[2606]: ---> Package libXcomposite.x86_64 0:0.4.4-4.1.amzn2.0.2 will be installed
+[   89.725368] cloud-init[2606]: ---> Package libXext.x86_64 0:1.3.3-3.amzn2.0.2 will be installed
+[   89.729120] cloud-init[2606]: ---> Package libXi.x86_64 0:1.7.9-1.amzn2.0.2 will be installed
+[   89.732739] cloud-init[2606]: ---> Package libXrender.x86_64 0:0.9.10-1.amzn2.0.2 will be installed
+[   89.736652] cloud-init[2606]: ---> Package libXtst.x86_64 0:1.2.3-1.amzn2.0.2 will be installed
+[   89.740418] cloud-init[2606]: ---> Package xorg-x11-fonts-Type1.noarch 0:7.5-9.amzn2 will be installed
+[   89.744359] cloud-init[2606]: --> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+[   89.748719] cloud-init[2606]: --> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+[   89.753115] cloud-init[2606]: --> Processing Dependency: mkfontdir for package: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+[   89.757588] cloud-init[2606]: --> Processing Dependency: mkfontdir for package: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+[   89.762231] cloud-init[2606]: --> Running transaction check
+[   89.764786] cloud-init[2606]: ---> Package atk.x86_64 0:2.22.0-3.amzn2.0.2 will be installed
+[   89.768423] cloud-init[2606]: ---> Package cairo.x86_64 0:1.15.12-4.amzn2 will be installed
+[   89.772114] cloud-init[2606]: --> Processing Dependency: libpixman-1.so.0()(64bit) for package: cairo-1.15.12-4.amzn2.x86_64
+[   89.777117] cloud-init[2606]: --> Processing Dependency: libGL.so.1()(64bit) for package: cairo-1.15.12-4.amzn2.x86_64
+[   89.781692] cloud-init[2606]: --> Processing Dependency: libEGL.so.1()(64bit) for package: cairo-1.15.12-4.amzn2.x86_64
+[   89.786200] cloud-init[2606]: ---> Package copy-jdk-configs.noarch 0:3.3-10.amzn2 will be installed
+[   89.790053] cloud-init[2606]: ---> Package cups-libs.x86_64 1:1.6.3-51.amzn2 will be installed
+[   89.793773] cloud-init[2606]: --> Processing Dependency: libavahi-common.so.3()(64bit) for package: 1:cups-libs-1.6.3-51.amzn2.x86_64
+[   89.798773] cloud-init[2606]: --> Processing Dependency: libavahi-client.so.3()(64bit) for package: 1:cups-libs-1.6.3-51.amzn2.x86_64
+[   89.803874] cloud-init[2606]: ---> Package dejavu-sans-fonts.noarch 0:2.33-6.amzn2 will be installed
+[   89.807898] cloud-init[2606]: --> Processing Dependency: dejavu-fonts-common = 2.33-6.amzn2 for package: dejavu-sans-fonts-2.33-6.amzn2.noarch
+[   89.813127] cloud-init[2606]: ---> Package fontpackages-filesystem.noarch 0:1.44-8.amzn2 will be installed
+[   89.817283] cloud-init[2606]: ---> Package gdk-pixbuf2.x86_64 0:2.36.12-3.amzn2 will be installed
+[   89.821255] cloud-init[2606]: --> Processing Dependency: libjasper.so.1()(64bit) for package: gdk-pixbuf2-2.36.12-3.amzn2.x86_64
+[   89.826109] cloud-init[2606]: ---> Package gtk-update-icon-cache.x86_64 0:3.22.30-3.amzn2 will be installed
+[   89.830179] cloud-init[2606]: ---> Package hicolor-icon-theme.noarch 0:0.12-7.amzn2 will be installed
+[   89.834092] cloud-init[2606]: ---> Package javapackages-tools.noarch 0:3.4.1-11.amzn2 will be installed
+[   89.838185] cloud-init[2606]: --> Processing Dependency: python-javapackages = 3.4.1-11.amzn2 for package: javapackages-tools-3.4.1-11.amzn2.noarch
+[   89.843614] cloud-init[2606]: --> Processing Dependency: libxslt for package: javapackages-tools-3.4.1-11.amzn2.noarch
+[   89.848168] cloud-init[2606]: ---> Package libICE.x86_64 0:1.0.9-9.amzn2.0.2 will be installed
+[   89.851873] cloud-init[2606]: ---> Package libSM.x86_64 0:1.2.2-2.amzn2.0.2 will be installed
+[   89.855551] cloud-init[2606]: ---> Package libX11-common.noarch 0:1.6.7-3.amzn2.0.2 will be installed
+[   89.859401] cloud-init[2606]: ---> Package libXcursor.x86_64 0:1.1.15-1.amzn2 will be installed
+[   89.863286] cloud-init[2606]: ---> Package libXdamage.x86_64 0:1.1.4-4.1.amzn2.0.2 will be installed
+[   89.867281] cloud-init[2606]: ---> Package libXfixes.x86_64 0:5.0.3-1.amzn2.0.2 will be installed
+[   89.870968] cloud-init[2606]: ---> Package libXinerama.x86_64 0:1.1.3-2.1.amzn2.0.2 will be installed
+[   89.875060] cloud-init[2606]: ---> Package libXrandr.x86_64 0:1.5.1-2.amzn2.0.3 will be installed
+[   89.878683] cloud-init[2606]: ---> Package libxcb.x86_64 0:1.12-1.amzn2.0.2 will be installed
+[   89.882258] cloud-init[2606]: --> Processing Dependency: libXau.so.6()(64bit) for package: libxcb-1.12-1.amzn2.0.2.x86_64
+[   89.886745] cloud-init[2606]: ---> Package lksctp-tools.x86_64 0:1.0.17-2.amzn2.0.2 will be installed
+[   89.890516] cloud-init[2606]: ---> Package log4j-cve-2021-44228-hotpatch.noarch 0:1.1-12.amzn2 will be installed
+[   89.894691] cloud-init[2606]: ---> Package pango.x86_64 0:1.42.4-4.amzn2 will be installed
+[   89.898037] cloud-init[2606]: --> Processing Dependency: libthai(x86-64) >= 0.1.9 for package: pango-1.42.4-4.amzn2.x86_64
+[   89.902476] cloud-init[2606]: --> Processing Dependency: libXft(x86-64) >= 2.0.0 for package: pango-1.42.4-4.amzn2.x86_64
+[   89.906871] cloud-init[2606]: --> Processing Dependency: harfbuzz(x86-64) >= 1.4.2 for package: pango-1.42.4-4.amzn2.x86_64
+[   89.911411] cloud-init[2606]: --> Processing Dependency: fribidi(x86-64) >= 1.0 for package: pango-1.42.4-4.amzn2.x86_64
+[   89.915786] cloud-init[2606]: --> Processing Dependency: libthai.so.0(LIBTHAI_0.1)(64bit) for package: pango-1.42.4-4.amzn2.x86_64
+[   89.920638] cloud-init[2606]: --> Processing Dependency: libthai.so.0()(64bit) for package: pango-1.42.4-4.amzn2.x86_64
+[   89.925033] cloud-init[2606]: --> Processing Dependency: libharfbuzz.so.0()(64bit) for package: pango-1.42.4-4.amzn2.x86_64
+[   89.929525] cloud-init[2606]: --> Processing Dependency: libfribidi.so.0()(64bit) for package: pango-1.42.4-4.amzn2.x86_64
+[   89.934196] cloud-init[2606]: --> Processing Dependency: libXft.so.2()(64bit) for package: pango-1.42.4-4.amzn2.x86_64
+[   89.938672] cloud-init[2606]: ---> Package pcsc-lite-libs.x86_64 0:1.8.8-7.amzn2 will be installed
+[   89.939959] cloud-init[2606]: ---> Package ttmkfdir.x86_64 0:3.0.9-42.amzn2.0.2 will be installed
+[   89.940443] cloud-init[2606]: ---> Package tzdata-java.noarch 0:2021a-1.amzn2 will be installed
+[   89.940867] cloud-init[2606]: ---> Package xorg-x11-font-utils.x86_64 1:7.5-21.amzn2 will be installed
+[   89.941338] cloud-init[2606]: --> Processing Dependency: libfontenc.so.1()(64bit) for package: 1:xorg-x11-font-utils-7.5-21.amzn2.x86_64
+[   89.941800] cloud-init[2606]: --> Running transaction check
+[   89.942266] cloud-init[2606]: ---> Package avahi-libs.x86_64 0:0.6.31-20.amzn2 will be installed
+[   89.942724] cloud-init[2606]: ---> Package dejavu-fonts-common.noarch 0:2.33-6.amzn2 will be installed
+[   89.943222] cloud-init[2606]: ---> Package fribidi.x86_64 0:1.0.2-1.amzn2.1 will be installed
+[   89.943689] cloud-init[2606]: ---> Package harfbuzz.x86_64 0:1.7.5-2.amzn2 will be installed
+[   89.944167] cloud-init[2606]: --> Processing Dependency: libgraphite2.so.3()(64bit) for package: harfbuzz-1.7.5-2.amzn2.x86_64
+[   89.944631] cloud-init[2606]: ---> Package jasper-libs.x86_64 0:1.900.1-33.amzn2 will be installed
+[   89.945142] cloud-init[2606]: ---> Package libXau.x86_64 0:1.0.8-2.1.amzn2.0.2 will be installed
+[   89.945593] cloud-init[2606]: ---> Package libXft.x86_64 0:2.3.2-2.amzn2.0.2 will be installed
+[   89.946055] cloud-init[2606]: ---> Package libfontenc.x86_64 0:1.1.3-3.amzn2.0.2 will be installed
+[   89.946530] cloud-init[2606]: ---> Package libglvnd-egl.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 will be installed
+[   89.946984] cloud-init[2606]: --> Processing Dependency: libglvnd(x86-64) = 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 for package: 1:libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64
+[   89.947456] cloud-init[2606]: --> Processing Dependency: mesa-libEGL(x86-64) >= 13.0.4-1 for package: 1:libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64
+[   89.947909] cloud-init[2606]: --> Processing Dependency: libGLdispatch.so.0()(64bit) for package: 1:libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64
+[   89.956229] cloud-init[2606]: ---> Package libglvnd-glx.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 will be installed
+[   89.956657] cloud-init[2606]: --> Processing Dependency: mesa-libGL(x86-64) >= 13.0.4-1 for package: 1:libglvnd-glx-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64
+[   89.957110] cloud-init[2606]: ---> Package libthai.x86_64 0:0.1.14-9.amzn2.0.2 will be installed
+[   89.957573] cloud-init[2606]: ---> Package libxslt.x86_64 0:1.1.28-6.amzn2 will be installed
+[   89.958039] cloud-init[2606]: ---> Package pixman.x86_64 0:0.34.0-1.amzn2.0.2 will be installed
+[   89.958533] cloud-init[2606]: ---> Package python-javapackages.noarch 0:3.4.1-11.amzn2 will be installed
+[   89.958985] cloud-init[2606]: --> Processing Dependency: python-lxml for package: python-javapackages-3.4.1-11.amzn2.noarch
+[   89.959459] cloud-init[2606]: --> Running transaction check
+[   89.959926] cloud-init[2606]: ---> Package graphite2.x86_64 0:1.3.10-1.amzn2.0.2 will be installed
+[   89.960411] cloud-init[2606]: ---> Package libglvnd.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 will be installed
+[   89.960871] cloud-init[2606]: ---> Package mesa-libEGL.x86_64 0:18.3.4-5.amzn2.0.1 will be installed
+[   89.961335] cloud-init[2606]: --> Processing Dependency: mesa-libgbm = 18.3.4-5.amzn2.0.1 for package: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+[   89.961827] cloud-init[2606]: --> Processing Dependency: libxshmfence.so.1()(64bit) for package: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+[   89.962305] cloud-init[2606]: --> Processing Dependency: libwayland-server.so.0()(64bit) for package: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+[   89.962765] cloud-init[2606]: --> Processing Dependency: libwayland-client.so.0()(64bit) for package: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+[   89.963275] cloud-init[2606]: --> Processing Dependency: libglapi.so.0()(64bit) for package: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+[   89.963774] cloud-init[2606]: --> Processing Dependency: libgbm.so.1()(64bit) for package: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+[   89.972496] cloud-init[2606]: ---> Package mesa-libGL.x86_64 0:18.3.4-5.amzn2.0.1 will be installed
+[   89.972899] cloud-init[2606]: --> Processing Dependency: libXxf86vm.so.1()(64bit) for package: mesa-libGL-18.3.4-5.amzn2.0.1.x86_64
+[   89.973359] cloud-init[2606]: ---> Package python-lxml.x86_64 0:3.2.1-4.amzn2.0.3 will be installed
+[   89.973813] cloud-init[2606]: --> Running transaction check
+[   89.974263] cloud-init[2606]: ---> Package libXxf86vm.x86_64 0:1.1.4-1.amzn2.0.2 will be installed
+[   89.974375] cloud-init[2606]: ---> Package libwayland-client.x86_64 0:1.17.0-1.amzn2 will be installed
+[   89.975024] cloud-init[2606]: ---> Package libwayland-server.x86_64 0:1.17.0-1.amzn2 will be installed
+[   89.975522] cloud-init[2606]: ---> Package libxshmfence.x86_64 0:1.2-1.amzn2.0.2 will be installed
+[   89.975987] cloud-init[2606]: ---> Package mesa-libgbm.x86_64 0:18.3.4-5.amzn2.0.1 will be installed
+[   89.976470] cloud-init[2606]: ---> Package mesa-libglapi.x86_64 0:18.3.4-5.amzn2.0.1 will be installed
+[   90.186883] cloud-init[2606]: --> Finished Dependency Resolution
+[   90.252638] cloud-init[2606]: Dependencies Resolved
+[   90.261792] cloud-init[2606]: ================================================================================
+[   90.266132] cloud-init[2606]: Package               Arch   Version                          Repository  Size
+[   90.270371] cloud-init[2606]: ================================================================================
+[   90.274533] cloud-init[2606]: Installing:
+[   90.276783] cloud-init[2606]: java-1.8.0-openjdk    x86_64 1:1.8.0.312.b07-1.amzn2.0.2      amzn2-core 310 k
+[   90.280900] cloud-init[2606]: Installing for dependencies:
+[   90.283404] cloud-init[2606]: alsa-lib              x86_64 1.1.4.1-2.amzn2                  amzn2-core 425 k
+[   90.287536] cloud-init[2606]: atk                   x86_64 2.22.0-3.amzn2.0.2               amzn2-core 258 k
+[   90.291472] cloud-init[2606]: avahi-libs            x86_64 0.6.31-20.amzn2                  amzn2-core  61 k
+[   90.295263] cloud-init[2606]: cairo                 x86_64 1.15.12-4.amzn2                  amzn2-core 732 k
+[   90.299281] cloud-init[2606]: copy-jdk-configs      noarch 3.3-10.amzn2                     amzn2-core  21 k
+[   90.308259] cloud-init[2606]: cups-libs             x86_64 1:1.6.3-51.amzn2                 amzn2-core 356 k
+[   90.312318] cloud-init[2606]: dejavu-fonts-common   noarch 2.33-6.amzn2                     amzn2-core  64 k
+[   90.316346] cloud-init[2606]: dejavu-sans-fonts     noarch 2.33-6.amzn2                     amzn2-core 1.4 M
+[   90.328321] cloud-init[2606]: fontconfig            x86_64 2.13.0-4.3.amzn2                 amzn2-core 253 k
+[   90.332470] cloud-init[2606]: fontpackages-filesystem
+[   90.334794] cloud-init[2606]: noarch 1.44-8.amzn2                     amzn2-core  10 k
+[   90.338157] cloud-init[2606]: fribidi               x86_64 1.0.2-1.amzn2.1                  amzn2-core  79 k
+[   90.342267] cloud-init[2606]: gdk-pixbuf2           x86_64 2.36.12-3.amzn2                  amzn2-core 568 k
+[   90.346345] cloud-init[2606]: giflib                x86_64 4.1.6-9.amzn2.0.2                amzn2-core  40 k
+[   90.350443] cloud-init[2606]: graphite2             x86_64 1.3.10-1.amzn2.0.2               amzn2-core 115 k
+[   90.354480] cloud-init[2606]: gtk-update-icon-cache x86_64 3.22.30-3.amzn2                  amzn2-core  26 k
+[   90.358483] cloud-init[2606]: gtk2                  x86_64 2.24.31-1.amzn2.0.2              amzn2-core 3.4 M
+[   90.362477] cloud-init[2606]: harfbuzz              x86_64 1.7.5-2.amzn2                    amzn2-core 279 k
+[   90.366588] cloud-init[2606]: hicolor-icon-theme    noarch 0.12-7.amzn2                     amzn2-core  43 k
+[   90.370581] cloud-init[2606]: jasper-libs           x86_64 1.900.1-33.amzn2                 amzn2-core 150 k
+[   90.374566] cloud-init[2606]: java-1.8.0-openjdk-headless
+[   90.377310] cloud-init[2606]: x86_64 1:1.8.0.312.b07-1.amzn2.0.2      amzn2-core  33 M
+[   90.380599] cloud-init[2606]: javapackages-tools    noarch 3.4.1-11.amzn2                   amzn2-core  73 k
+[   90.384640] cloud-init[2606]: libICE                x86_64 1.0.9-9.amzn2.0.2                amzn2-core  67 k
+[   90.388577] cloud-init[2606]: libSM                 x86_64 1.2.2-2.amzn2.0.2                amzn2-core  39 k
+[   90.392493] cloud-init[2606]: libX11                x86_64 1.6.7-3.amzn2.0.2                amzn2-core 606 k
+[   90.396160] cloud-init[2606]: libX11-common         noarch 1.6.7-3.amzn2.0.2                amzn2-core 165 k
+[   90.397423] cloud-init[2606]: libXau                x86_64 1.0.8-2.1.amzn2.0.2              amzn2-core  29 k
+[   90.397882] cloud-init[2606]: libXcomposite         x86_64 0.4.4-4.1.amzn2.0.2              amzn2-core  22 k
+[   90.398339] cloud-init[2606]: libXcursor            x86_64 1.1.15-1.amzn2                   amzn2-core  30 k
+[   90.398797] cloud-init[2606]: libXdamage            x86_64 1.1.4-4.1.amzn2.0.2              amzn2-core  20 k
+[   90.399255] cloud-init[2606]: libXext               x86_64 1.3.3-3.amzn2.0.2                amzn2-core  39 k
+[   90.399716] cloud-init[2606]: libXfixes             x86_64 5.0.3-1.amzn2.0.2                amzn2-core  18 k
+[   90.400192] cloud-init[2606]: libXft                x86_64 2.3.2-2.amzn2.0.2                amzn2-core  60 k
+[   90.400627] cloud-init[2606]: libXi                 x86_64 1.7.9-1.amzn2.0.2                amzn2-core  41 k
+[   90.401084] cloud-init[2606]: libXinerama           x86_64 1.1.3-2.1.amzn2.0.2              amzn2-core  14 k
+[   90.401541] cloud-init[2606]: libXrandr             x86_64 1.5.1-2.amzn2.0.3                amzn2-core  27 k
+[   90.401993] cloud-init[2606]: libXrender            x86_64 0.9.10-1.amzn2.0.2               amzn2-core  26 k
+[   90.402448] cloud-init[2606]: libXtst               x86_64 1.2.3-1.amzn2.0.2                amzn2-core  20 k
+[   90.402883] cloud-init[2606]: libXxf86vm            x86_64 1.1.4-1.amzn2.0.2                amzn2-core  17 k
+[   90.403331] cloud-init[2606]: libfontenc            x86_64 1.1.3-3.amzn2.0.2                amzn2-core  31 k
+[   90.403772] cloud-init[2606]: libglvnd              x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 amzn2-core  89 k
+[   90.408442] cloud-init[2606]: libglvnd-egl          x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 amzn2-core  43 k
+[   90.409475] cloud-init[2606]: libglvnd-glx          x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 amzn2-core 125 k
+[   90.410401] cloud-init[2606]: libthai               x86_64 0.1.14-9.amzn2.0.2               amzn2-core 187 k
+[   90.411324] cloud-init[2606]: libwayland-client     x86_64 1.17.0-1.amzn2                   amzn2-core  34 k
+[   90.412243] cloud-init[2606]: libwayland-server     x86_64 1.17.0-1.amzn2                   amzn2-core  40 k
+[   90.416666] cloud-init[2606]: libxcb                x86_64 1.12-1.amzn2.0.2                 amzn2-core 216 k
+[   90.417049] cloud-init[2606]: libxshmfence          x86_64 1.2-1.amzn2.0.2                  amzn2-core 7.2 k
+[   90.417502] cloud-init[2606]: libxslt               x86_64 1.1.28-6.amzn2                   amzn2-core 240 k
+[   90.417953] cloud-init[2606]: lksctp-tools          x86_64 1.0.17-2.amzn2.0.2               amzn2-core  88 k
+[   90.418440] cloud-init[2606]: log4j-cve-2021-44228-hotpatch
+[   90.418894] cloud-init[2606]: noarch 1.1-12.amzn2                     amzn2-core 144 k
+[   90.419365] cloud-init[2606]: mesa-libEGL           x86_64 18.3.4-5.amzn2.0.1               amzn2-core 108 k
+[   90.419818] cloud-init[2606]: mesa-libGL            x86_64 18.3.4-5.amzn2.0.1               amzn2-core 162 k
+[   90.420301] cloud-init[2606]: mesa-libgbm           x86_64 18.3.4-5.amzn2.0.1               amzn2-core  38 k
+[   90.420734] cloud-init[2606]: mesa-libglapi         x86_64 18.3.4-5.amzn2.0.1               amzn2-core  45 k
+[   90.421187] cloud-init[2606]: pango                 x86_64 1.42.4-4.amzn2                   amzn2-core 280 k
+[   90.421625] cloud-init[2606]: pcsc-lite-libs        x86_64 1.8.8-7.amzn2                    amzn2-core  35 k
+[   90.422514] cloud-init[2606]: pixman                x86_64 0.34.0-1.amzn2.0.2               amzn2-core 254 k
+[   90.424100] cloud-init[2606]: python-javapackages   noarch 3.4.1-11.amzn2                   amzn2-core  31 k
+[   90.424408] cloud-init[2606]: python-lxml           x86_64 3.2.1-4.amzn2.0.3                amzn2-core 1.0 M
+[   90.425326] cloud-init[2606]: ttmkfdir              x86_64 3.0.9-42.amzn2.0.2               amzn2-core  50 k
+[   90.426242] cloud-init[2606]: tzdata-java           noarch 2021a-1.amzn2                    amzn2-core 191 k
+[   90.431468] cloud-init[2606]: xorg-x11-font-utils   x86_64 1:7.5-21.amzn2                   amzn2-core 103 k
+[   90.437809] cloud-init[2606]: xorg-x11-fonts-Type1  noarch 7.5-9.amzn2                      amzn2-core 521 k
+[   90.438234] cloud-init[2606]: Transaction Summary
+[   90.438686] cloud-init[2606]: ================================================================================
+[   90.439132] cloud-init[2606]: Install  1 Package (+63 Dependent packages)
+[   90.439593] cloud-init[2606]: Total download size: 47 M
+[   90.440079] cloud-init[2606]: Installed size: 154 M
+[   90.440527] cloud-init[2606]: Downloading packages:
+[   91.256759] cloud-init[2606]: --------------------------------------------------------------------------------
+[   91.259475] cloud-init[2606]: Total                                               48 MB/s |  47 MB  00:00
+[   91.304512] cloud-init[2606]: Running transaction check
+[   91.330079] cloud-init[2606]: Running transaction test
+[   91.386693] cloud-init[2606]: Transaction test succeeded
+[   91.391477] cloud-init[2606]: Running transaction
+[   91.544188] cloud-init[2606]: Installing : mesa-libglapi-18.3.4-5.amzn2.0.1.x86_64                     1/64
+[   91.593083] cloud-init[2606]: Installing : libICE-1.0.9-9.amzn2.0.2.x86_64                             2/64
+[   91.623902] cloud-init[2606]: Installing : libxslt-1.1.28-6.amzn2.x86_64                               3/64
+[   91.655319] cloud-init[2606]: Installing : fontpackages-filesystem-1.44-8.amzn2.noarch                 4/64
+[   91.683294] cloud-init[2606]: Installing : 1:libglvnd-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64            5/64
+[   91.711078] cloud-init[2606]: Installing : libxshmfence-1.2-1.amzn2.0.2.x86_64                         6/64
+[   91.729330] cloud-init[2606]: Installing : libwayland-server-1.17.0-1.amzn2.x86_64                     7/64
+[   91.759043] cloud-init[2606]: Installing : mesa-libgbm-18.3.4-5.amzn2.0.1.x86_64                       8/64
+[   91.940826] cloud-init[2606]: Installing : dejavu-fonts-common-2.33-6.amzn2.noarch                     9/64
+[   91.994863] cloud-init[2606]: Installing : dejavu-sans-fonts-2.33-6.amzn2.noarch                      10/64
+[   93.155873] cloud-init[2606]: Installing : fontconfig-2.13.0-4.3.amzn2.x86_64                         11/64
+[   93.182785] cloud-init[2606]: Installing : python-lxml-3.2.1-4.amzn2.0.3.x86_64                       12/64
+[   93.213231] cloud-init[2606]: Installing : python-javapackages-3.4.1-11.amzn2.noarch                  13/64
+[   93.238033] cloud-init[2606]: Installing : javapackages-tools-3.4.1-11.amzn2.noarch                   14/64
+[   93.273435] cloud-init[2606]: Installing : libSM-1.2.2-2.amzn2.0.2.x86_64                             15/64
+[   93.310960] cloud-init[2606]: Installing : fribidi-1.0.2-1.amzn2.1.x86_64                             16/64
+[   93.365595] cloud-init[2606]: Installing : graphite2-1.3.10-1.amzn2.0.2.x86_64                        17/64
+[   93.406737] cloud-init[2606]: Installing : harfbuzz-1.7.5-2.amzn2.x86_64                              18/64
+[   93.486922] cloud-init[2606]: Installing : jasper-libs-1.900.1-33.amzn2.x86_64                        19/64
+[   93.518016] cloud-init[2606]: Installing : alsa-lib-1.1.4.1-2.amzn2.x86_64                            20/64
+[   93.534334] cloud-init[2606]: Installing : copy-jdk-configs-3.3-10.amzn2.noarch                       21/64
+[   93.559843] cloud-init[2606]: Installing : pcsc-lite-libs-1.8.8-7.amzn2.x86_64                        22/64
+[   93.599979] cloud-init[2606]: Installing : libwayland-client-1.17.0-1.amzn2.x86_64                    23/64
+[   93.635104] cloud-init[2606]: Installing : pixman-0.34.0-1.amzn2.0.2.x86_64                           24/64
+[   93.665913] cloud-init[2606]: Installing : hicolor-icon-theme-0.12-7.amzn2.noarch                     25/64
+[   93.729762] cloud-init[2606]: Installing : avahi-libs-0.6.31-20.amzn2.x86_64                          26/64
+[   93.789103] cloud-init[2606]: Installing : 1:cups-libs-1.6.3-51.amzn2.x86_64                          27/64
+[   93.819528] cloud-init[2606]: Installing : libthai-0.1.14-9.amzn2.0.2.x86_64                          28/64
+[   93.862414] cloud-init[2606]: Installing : libfontenc-1.1.3-3.amzn2.0.2.x86_64                        29/64
+[   93.881995] cloud-init[2606]: Installing : 1:xorg-x11-font-utils-7.5-21.amzn2.x86_64                  30/64
+[   93.935925] cloud-init[2606]: Installing : libXau-1.0.8-2.1.amzn2.0.2.x86_64                          31/64
+[   94.002915] cloud-init[2606]: Installing : libxcb-1.12-1.amzn2.0.2.x86_64                             32/64
+[   94.081938] cloud-init[2606]: Installing : libX11-common-1.6.7-3.amzn2.0.2.noarch                     33/64
+[   94.111448] cloud-init[2606]: Installing : libX11-1.6.7-3.amzn2.0.2.x86_64                            34/64
+[   94.138957] cloud-init[2606]: Installing : libXext-1.3.3-3.amzn2.0.2.x86_64                           35/64
+[   94.165407] cloud-init[2606]: Installing : libXrender-0.9.10-1.amzn2.0.2.x86_64                       36/64
+[   94.192965] cloud-init[2606]: Installing : libXfixes-5.0.3-1.amzn2.0.2.x86_64                         37/64
+[   94.219312] cloud-init[2606]: Installing : libXi-1.7.9-1.amzn2.0.2.x86_64                             38/64
+[   94.248195] cloud-init[2606]: Installing : libXdamage-1.1.4-4.1.amzn2.0.2.x86_64                      39/64
+[   94.359178] cloud-init[2606]: Installing : libXcomposite-0.4.4-4.1.amzn2.0.2.x86_64                   40/64
+[   94.395750] cloud-init[2606]: Installing : gdk-pixbuf2-2.36.12-3.amzn2.x86_64                         41/64
+[   94.412806] cloud-init[2606]: Installing : gtk-update-icon-cache-3.22.30-3.amzn2.x86_64               42/64
+[   94.440097] cloud-init[2606]: Installing : libXtst-1.2.3-1.amzn2.0.2.x86_64                           43/64
+[   94.464270] cloud-init[2606]: Installing : libXcursor-1.1.15-1.amzn2.x86_64                           44/64
+[   94.496996] cloud-init[2606]: Installing : libXrandr-1.5.1-2.amzn2.0.3.x86_64                         45/64
+[   94.521704] cloud-init[2606]: Installing : libXft-2.3.2-2.amzn2.0.2.x86_64                            46/64
+[   94.550845] cloud-init[2606]: Installing : libXinerama-1.1.3-2.1.amzn2.0.2.x86_64                     47/64
+[   94.599293] cloud-init[2606]: Installing : libXxf86vm-1.1.4-1.amzn2.0.2.x86_64                        48/64
+[   94.647764] cloud-init[2606]: Installing : 1:libglvnd-glx-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64       49/64
+[   94.668874] cloud-init[2606]: Installing : mesa-libGL-18.3.4-5.amzn2.0.1.x86_64                       50/64
+[   94.702581] cloud-init[2606]: Installing : 1:libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64       51/64
+[   94.789439] cloud-init[2606]: Installing : mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64                      52/64
+[   94.848434] cloud-init[2606]: Installing : cairo-1.15.12-4.amzn2.x86_64                               53/64
+[   94.879613] cloud-init[2606]: Installing : pango-1.42.4-4.amzn2.x86_64                                54/64
+[   94.909778] cloud-init[2606]: Installing : giflib-4.1.6-9.amzn2.0.2.x86_64                            55/64
+[   94.980086] cloud-init[2606]: Installing : ttmkfdir-3.0.9-42.amzn2.0.2.x86_64                         56/64
+[   95.046685] cloud-init[2606]: Installing : xorg-x11-fonts-Type1-7.5-9.amzn2.noarch                    57/64
+[   95.122156] cloud-init[2606]: Installing : lksctp-tools-1.0.17-2.amzn2.0.2.x86_64                     58/64
+[   95.565622] cloud-init[2606]: Installing : atk-2.22.0-3.amzn2.0.2.x86_64                              59/64
+[   95.614895] cloud-init[2606]: Installing : gtk2-2.24.31-1.amzn2.0.2.x86_64                            60/64
+[[32m  OK  [0m] Started Run the CVE-2021-44228 hotfix script.
+[   95.784911] cloud-init[2606]: Installing : log4j-cve-2021-44228-hotpatch-1.1-12.amzn2.noarch          61/64
+[   95.786209] cloud-init[2606]: Created symlink from /etc/systemd/system/multi-user.target.wants/log4j-cve-2021-44228-hotpatch.service to /usr/lib/systemd/system/log4j-cve-2021-44228-hotpatch.service.
+[   99.583882] cloud-init[2606]: Installing : tzdata-java-2021a-1.amzn2.noarch                           62/64
+[   99.911508] cloud-init[2606]: Installing : 1:java-1.8.0-openjdk-headless-1.8.0.312.b07-1.amzn2.0.2.   63/64
+[   99.985209] cloud-init[2606]: Installing : 1:java-1.8.0-openjdk-1.8.0.312.b07-1.amzn2.0.2.x86_64      64/64
+[[32m  OK  [0m] Stopped Dynamically Generate Message Of The Day.
+         Starting Dynamically Generate Message Of The Day...
+[  100.006220] cloud-init[2606]: Verifying  : libSM-1.2.2-2.amzn2.0.2.x86_64                              1/64
+[  100.017164] cloud-init[2606]: Verifying  : libwayland-server-1.17.0-1.amzn2.x86_64                     2/64
+[  100.028864] cloud-init[2606]: Verifying  : tzdata-java-2021a-1.amzn2.noarch                            3/64
+[  100.042419] cloud-init[2606]: Verifying  : libxshmfence-1.2-1.amzn2.0.2.x86_64                         4/64
+[  100.055296] cloud-init[2606]: Verifying  : 1:xorg-x11-font-utils-7.5-21.amzn2.x86_64                   5/64
+[  100.070587] cloud-init[2606]: Verifying  : 1:libglvnd-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64            6/64
+[  100.083093] cloud-init[2606]: Verifying  : 1:libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64        7/64
+[  100.095775] cloud-init[2606]: Verifying  : fontpackages-filesystem-1.44-8.amzn2.noarch                 8/64
+[  100.107984] cloud-init[2606]: Verifying  : mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64                       9/64
+[  100.120581] cloud-init[2606]: Verifying  : libXdamage-1.1.4-4.1.amzn2.0.2.x86_64                      10/64
+[  100.134168] cloud-init[2606]: Verifying  : pango-1.42.4-4.amzn2.x86_64                                11/64
+[  100.148194] cloud-init[2606]: Verifying  : 1:java-1.8.0-openjdk-1.8.0.312.b07-1.amzn2.0.2.x86_64      12/64
+[  100.161432] cloud-init[2606]: Verifying  : log4j-cve-2021-44228-hotpatch-1.1-12.amzn2.noarch          13/64
+[  100.174563] cloud-init[2606]: Verifying  : atk-2.22.0-3.amzn2.0.2.x86_64                              14/64
+[  100.187628] cloud-init[2606]: Verifying  : mesa-libGL-18.3.4-5.amzn2.0.1.x86_64                       15/64
+[  100.204045] cloud-init[2606]: Verifying  : libXext-1.3.3-3.amzn2.0.2.x86_64                           16/64
+[  100.218163] cloud-init[2606]: Verifying  : libX11-1.6.7-3.amzn2.0.2.x86_64                            17/64
+[  100.228171] cloud-init[2606]: Verifying  : mesa-libglapi-18.3.4-5.amzn2.0.1.x86_64                    18/64
+[  100.237850] cloud-init[2606]: Verifying  : lksctp-tools-1.0.17-2.amzn2.0.2.x86_64                     19/64
+[  100.252076] cloud-init[2606]: Verifying  : cairo-1.15.12-4.amzn2.x86_64                               20/64
+[  100.259581] cloud-init[2606]: Verifying  : libXcursor-1.1.15-1.amzn2.x86_64                           21/64
+[  100.272727] cloud-init[2606]: Verifying  : ttmkfdir-3.0.9-42.amzn2.0.2.x86_64                         22/64
+[  100.281089] cloud-init[2606]: Verifying  : gtk-update-icon-cache-3.22.30-3.amzn2.x86_64               23/64
+[  100.294116] cloud-init[2606]: Verifying  : libXcomposite-0.4.4-4.1.amzn2.0.2.x86_64                   24/64
+[  100.306961] cloud-init[2606]: Verifying  : libX11-common-1.6.7-3.amzn2.0.2.noarch                     25/64
+[  100.319593] cloud-init[2606]: Verifying  : dejavu-fonts-common-2.33-6.amzn2.noarch                    26/64
+[  100.333932] cloud-init[2606]: Verifying  : 1:cups-libs-1.6.3-51.amzn2.x86_64                          27/64
+[  100.350358] cloud-init[2606]: Verifying  : libXau-1.0.8-2.1.amzn2.0.2.x86_64                          28/64
+[  100.362631] cloud-init[2606]: Verifying  : libfontenc-1.1.3-3.amzn2.0.2.x86_64                        29/64
+[  100.374965] cloud-init[2606]: Verifying  : libthai-0.1.14-9.amzn2.0.2.x86_64                          30/64
+[  100.388569] cloud-init[2606]: Verifying  : xorg-x11-fonts-Type1-7.5-9.amzn2.noarch                    31/64
+[  100.400869] cloud-init[2606]: Verifying  : libXrandr-1.5.1-2.amzn2.0.3.x86_64                         32/64
+[  100.412535] cloud-init[2606]: Verifying  : gtk2-2.24.31-1.amzn2.0.2.x86_64                            33/64
+[  100.424961] cloud-init[2606]: Verifying  : libXrender-0.9.10-1.amzn2.0.2.x86_64                       34/64
+[  100.438173] cloud-init[2606]: Verifying  : avahi-libs-0.6.31-20.amzn2.x86_64                          35/64
+[  100.451065] cloud-init[2606]: Verifying  : libxcb-1.12-1.amzn2.0.2.x86_64                             36/64
+[  100.463933] cloud-init[2606]: Verifying  : dejavu-sans-fonts-2.33-6.amzn2.noarch                      37/64
+[  100.477647] cloud-init[2606]: Verifying  : python-lxml-3.2.1-4.amzn2.0.3.x86_64                       38/64
+[  100.491715] cloud-init[2606]: Verifying  : fontconfig-2.13.0-4.3.amzn2.x86_64                         39/64
+[  100.503921] cloud-init[2606]: Verifying  : gdk-pixbuf2-2.36.12-3.amzn2.x86_64                         40/64
+[  100.516579] cloud-init[2606]: Verifying  : hicolor-icon-theme-0.12-7.amzn2.noarch                     41/64
+[  100.529150] cloud-init[2606]: Verifying  : harfbuzz-1.7.5-2.amzn2.x86_64                              42/64
+[  100.542103] cloud-init[2606]: Verifying  : mesa-libgbm-18.3.4-5.amzn2.0.1.x86_64                      43/64
+[  100.554708] cloud-init[2606]: Verifying  : giflib-4.1.6-9.amzn2.0.2.x86_64                            44/64
+[  100.567430] cloud-init[2606]: Verifying  : libXinerama-1.1.3-2.1.amzn2.0.2.x86_64                     45/64
+[  100.582278] cloud-init[2606]: Verifying  : libXi-1.7.9-1.amzn2.0.2.x86_64                             46/64
+[  100.594493] cloud-init[2606]: Verifying  : pixman-0.34.0-1.amzn2.0.2.x86_64                           47/64
+[  100.607472] cloud-init[2606]: Verifying  : libXxf86vm-1.1.4-1.amzn2.0.2.x86_64                        48/64
+[  100.619766] cloud-init[2606]: Verifying  : libwayland-client-1.17.0-1.amzn2.x86_64                    49/64
+[  100.632711] cloud-init[2606]: Verifying  : libxslt-1.1.28-6.amzn2.x86_64                              50/64
+[  100.646859] cloud-init[2606]: Verifying  : 1:java-1.8.0-openjdk-headless-1.8.0.312.b07-1.amzn2.0.2.   51/64
+[  100.659819] cloud-init[2606]: Verifying  : python-javapackages-3.4.1-11.amzn2.noarch                  52/64
+[  100.672152] cloud-init[2606]: Verifying  : pcsc-lite-libs-1.8.8-7.amzn2.x86_64                        53/64
+[  100.684140] cloud-init[2606]: Verifying  : libXtst-1.2.3-1.amzn2.0.2.x86_64                           54/64
+[  100.695799] cloud-init[2606]: Verifying  : libXft-2.3.2-2.amzn2.0.2.x86_64                            55/64
+[  100.710960] cloud-init[2606]: Verifying  : copy-jdk-configs-3.3-10.amzn2.noarch                       56/64
+[  100.724036] cloud-init[2606]: Verifying  : alsa-lib-1.1.4.1-2.amzn2.x86_64                            57/64
+[  100.738661] cloud-init[2606]: Verifying  : jasper-libs-1.900.1-33.amzn2.x86_64                        58/64
+[  100.750551] cloud-init[2606]: Verifying  : 1:libglvnd-glx-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64       59/64
+[  100.761980] cloud-init[2606]: Verifying  : libXfixes-5.0.3-1.amzn2.0.2.x86_64                         60/64
+[  100.776674] cloud-init[2606]: Verifying  : libICE-1.0.9-9.amzn2.0.2.x86_64                            61/64
+[  100.788985] cloud-init[2606]: Verifying  : graphite2-1.3.10-1.amzn2.0.2.x86_64                        62/64
+[  100.801802] cloud-init[2606]: Verifying  : fribidi-1.0.2-1.amzn2.1.x86_64                             63/64
+[  100.862418] cloud-init[2606]: Verifying  : javapackages-tools-3.4.1-11.amzn2.noarch                   64/64
+[  100.866168] cloud-init[2606]: Installed:
+[  100.868216] cloud-init[2606]: java-1.8.0-openjdk.x86_64 1:1.8.0.312.b07-1.amzn2.0.2
+[  100.871684] cloud-init[2606]: Dependency Installed:
+[  100.873957] cloud-init[2606]: alsa-lib.x86_64 0:1.1.4.1-2.amzn2
+[  100.876497] cloud-init[2606]: atk.x86_64 0:2.22.0-3.amzn2.0.2
+[  100.878948] cloud-init[2606]: avahi-libs.x86_64 0:0.6.31-20.amzn2
+[  100.881688] cloud-init[2606]: cairo.x86_64 0:1.15.12-4.amzn2
+[  100.884115] cloud-init[2606]: copy-jdk-configs.noarch 0:3.3-10.amzn2
+[  100.886668] cloud-init[2606]: cups-libs.x86_64 1:1.6.3-51.amzn2
+[  100.889211] cloud-init[2606]: dejavu-fonts-common.noarch 0:2.33-6.amzn2
+[  100.892115] cloud-init[2606]: dejavu-sans-fonts.noarch 0:2.33-6.amzn2
+[  100.895028] cloud-init[2606]: fontconfig.x86_64 0:2.13.0-4.3.amzn2
+[  100.897651] cloud-init[2606]: fontpackages-filesystem.noarch 0:1.44-8.amzn2
+[  100.900888] cloud-init[2606]: fribidi.x86_64 0:1.0.2-1.amzn2.1
+[  100.903370] cloud-init[2606]: gdk-pixbuf2.x86_64 0:2.36.12-3.amzn2
+[  100.906000] cloud-init[2606]: giflib.x86_64 0:4.1.6-9.amzn2.0.2
+[  100.908472] cloud-init[2606]: graphite2.x86_64 0:1.3.10-1.amzn2.0.2
+[  100.911045] cloud-init[2606]: gtk-update-icon-cache.x86_64 0:3.22.30-3.amzn2
+[  100.914211] cloud-init[2606]: gtk2.x86_64 0:2.24.31-1.amzn2.0.2
+[  100.916921] cloud-init[2606]: harfbuzz.x86_64 0:1.7.5-2.amzn2
+[  100.920028] cloud-init[2606]: hicolor-icon-theme.noarch 0:0.12-7.amzn2
+[  100.922956] cloud-init[2606]: jasper-libs.x86_64 0:1.900.1-33.amzn2
+[  100.925898] cloud-init[2606]: java-1.8.0-openjdk-headless.x86_64 1:1.8.0.312.b07-1.amzn2.0.2
+[[32m  OK  [0m] Started Session c3 of user root.
+[  100.930516] cloud-init[2606]: javapackages-tools.noarch 0:3.4.1-11.amzn2
+[  100.933192] cloud-init[2606]: libICE.x86_64 0:1.0.9-9.amzn2.0.2
+[  100.935598] cloud-init[2606]: libSM.x86_64 0:1.2.2-2.amzn2.0.2
+[  100.938193] cloud-init[2606]: libX11.x86_64 0:1.6.7-3.amzn2.0.2
+[  100.940798] cloud-init[2606]: libX11-common.noarch 0:1.6.7-3.amzn2.0.2
+[  100.943435] cloud-init[2606]: libXau.x86_64 0:1.0.8-2.1.amzn2.0.2
+[  100.945975] cloud-init[2606]: libXcomposite.x86_64 0:0.4.4-4.1.amzn2.0.2
+[  100.948694] cloud-init[2606]: libXcursor.x86_64 0:1.1.15-1.amzn2
+[  100.951259] cloud-init[2606]: libXdamage.x86_64 0:1.1.4-4.1.amzn2.0.2
+[  100.953938] cloud-init[2606]: libXext.x86_64 0:1.3.3-3.amzn2.0.2
+[  100.956494] cloud-init[2606]: libXfixes.x86_64 0:5.0.3-1.amzn2.0.2
+[  100.959214] cloud-init[2606]: libXft.x86_64 0:2.3.2-2.amzn2.0.2
+[  100.961841] cloud-init[2606]: libXi.x86_64 0:1.7.9-1.amzn2.0.2
+[  100.964340] cloud-init[2606]: libXinerama.x86_64 0:1.1.3-2.1.amzn2.0.2
+[  100.966978] cloud-init[2606]: libXrandr.x86_64 0:1.5.1-2.amzn2.0.3
+[  100.969546] cloud-init[2606]: libXrender.x86_64 0:0.9.10-1.amzn2.0.2
+[  100.972173] cloud-init[2606]: libXtst.x86_64 0:1.2.3-1.amzn2.0.2
+[  100.974712] cloud-init[2606]: libXxf86vm.x86_64 0:1.1.4-1.amzn2.0.2
+[  100.977430] cloud-init[2606]: libfontenc.x86_64 0:1.1.3-3.amzn2.0.2
+[  100.980110] cloud-init[2606]: libglvnd.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1
+[  100.983171] cloud-init[2606]: libglvnd-egl.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1
+[  100.986471] cloud-init[2606]: libglvnd-glx.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1
+[  100.989573] cloud-init[2606]: libthai.x86_64 0:0.1.14-9.amzn2.0.2
+[  100.990940] cloud-init[2606]: libwayland-client.x86_64 0:1.17.0-1.amzn2
+[  100.992410] cloud-init[2606]: libwayland-server.x86_64 0:1.17.0-1.amzn2
+[  100.994121] cloud-init[2606]: libxcb.x86_64 0:1.12-1.amzn2.0.2
+[  100.996292] cloud-init[2606]: libxshmfence.x86_64 0:1.2-1.amzn2.0.2
+[  100.999517] cloud-init[2606]: libxslt.x86_64 0:1.1.28-6.amzn2
+[  101.002101] cloud-init[2606]: lksctp-tools.x86_64 0:1.0.17-2.amzn2.0.2
+[  101.004523] cloud-init[2606]: log4j-cve-2021-44228-hotpatch.noarch 0:1.1-12.amzn2
+[  101.007383] cloud-init[2606]: mesa-libEGL.x86_64 0:18.3.4-5.amzn2.0.1
+[  101.008748] cloud-init[2606]: mesa-libGL.x86_64 0:18.3.4-5.amzn2.0.1
+[  101.010268] cloud-init[2606]: mesa-libgbm.x86_64 0:18.3.4-5.amzn2.0.1
+[  101.011739] cloud-init[2606]: mesa-libglapi.x86_64 0:18.3.4-5.amzn2.0.1
+[  101.012954] cloud-init[2606]: pango.x86_64 0:1.42.4-4.amzn2
+[  101.013813] cloud-init[2606]: pcsc-lite-libs.x86_64 0:1.8.8-7.amzn2
+[  101.015459] cloud-init[2606]: pixman.x86_64 0:0.34.0-1.amzn2.0.2
+[  101.016645] cloud-init[2606]: python-javapackages.noarch 0:3.4.1-11.amzn2
+[  101.018121] cloud-init[2606]: python-lxml.x86_64 0:3.2.1-4.amzn2.0.3
+[  101.019244] cloud-init[2606]: ttmkfdir.x86_64 0:3.0.9-42.amzn2.0.2
+[  101.020532] cloud-init[2606]: tzdata-java.noarch 0:2021a-1.amzn2
+[  101.021632] cloud-init[2606]: xorg-x11-font-utils.x86_64 1:7.5-21.amzn2
+[  101.022959] cloud-init[2606]: xorg-x11-fonts-Type1.noarch 0:7.5-9.amzn2
+[  101.024249] cloud-init[2606]: Complete!
+[  103.820292] cloud-init[2606]: warning: /var/tmp/rpm-tmp.nRMEdm: Header V4 RSA/SHA512 Signature, key ID d88e42b4: NOKEY
+[  103.915080] cloud-init[2606]: Creating elasticsearch group... OK
+[  103.936095] cloud-init[2606]: Creating elasticsearch user... OK
+[[32m  OK  [0m] Started Dynamically Generate Message Of The Day.
+[[32m  OK  [0m] Stopped Apply Kernel Variables.
+         Stopping Apply Kernel Variables...
+         Starting Apply Kernel Variables...
+[[32m  OK  [0m] Started Apply Kernel Variables.
+[  111.608300] cloud-init[2606]: ### NOT starting on installation, please execute the following statements to configure elasticsearch service to start automatically using systemd
+[  111.609233] cloud-init[2606]: sudo systemctl daemon-reload
+[  111.609712] cloud-init[2606]: sudo systemctl enable elasticsearch.service
+[  111.610167] cloud-init[2606]: ### You can start elasticsearch service by executing
+[  111.610623] cloud-init[2606]: sudo systemctl start elasticsearch.service
+[[32m  OK  [0m] Stopped Run the CVE-2021-44228 hotfix script.
+[[32m  OK  [0m] Started Run the CVE-2021-44228 hotfix script.
+[[32m  OK  [0m] Started Session c4 of user root.
+[[32m  OK  [0m] Started Session c5 of user root.
+[  113.033907] cloud-init[2606]: Created elasticsearch keystore in /etc/elasticsearch/elasticsearch.keystore
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c6 of user root.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c7 of user root.
+[  113.235148] cloud-init[2606]: Created symlink from /etc/systemd/system/multi-user.target.wants/elasticsearch.service to /usr/lib/systemd/system/elasticsearch.service.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c8 of user root.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c9 of user root.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c10 of user root.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c11 of user root.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c12 of user root.
+         Starting Elasticsearch...
+[[32m  OK  [0m] Stopped Run the CVE-2021-44228 hotfix script.
+[[32m  OK  [0m] Started Run the CVE-2021-44228 hotfix script.
+[[32m  OK  [0m] Created slice User Slice of elasticsearch.
+[[32m  OK  [0m] Started Session c13 of user elasticsearch.
+[[32m  OK  [0m] Removed slice User Slice of elasticsearch.
+[[32m  OK  [0m] Created slice User Slice of elasticsearch.
+[[32m  OK  [0m] Started Session c14 of user elasticsearch.
+[[32m  OK  [0m] Started Elasticsearch.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c15 of user root.
+[[32m  OK  [0m] Removed slice User Slice of elasticsearch.
+[  136.651724] cloud-init[2606]: error: /var/tmp/rpm-tmp.lJN60d: not an rpm package (or package manifest):
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c16 of user root.
+[  136.721402] cloud-init[2606]: cp: cannot create regular file '/etc/logstash/conf.d/logstash.conf': No such file or directory
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c17 of user root.
+[  136.782008] cloud-init[2606]: Failed to start logstash.service: Unit not found.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c18 of user root.
+[  139.887918] cloud-init[2606]: warning: /var/tmp/rpm-tmp.jB6KWS: Header V4 RSA/SHA512 Signature, key ID d88e42b4: NOKEY
+[  156.312792] cloud-init[2606]: Creating kibana group... OK
+[  156.328540] cloud-init[2606]: Creating kibana user... OK
+[  156.746785] cloud-init[2606]: Created Kibana keystore in /etc/kibana/kibana.keystore
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c19 of user root.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c20 of user root.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c21 of user root.
+[[32m  OK  [0m] Started Kibana.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c22 of user root.
+[  157.513188] cloud-init[2606]: warning: /var/tmp/rpm-tmp.WQEXcO: Header V4 RSA/SHA512 Signature, key ID d88e42b4: NOKEY
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c23 of user root.
+[  160.209986] cloud-init[2606]: sed: can't read filebeat.yml: No such file or directory
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c24 of user root.
+[  160.242144] cloud-init[2606]: sed: can't read filebeat.yml: No such file or directory
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c25 of user root.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c26 of user root.
+[  160.313798] cloud-init[2606]: cp: cannot stat 'filebeat.yml': No such file or directory
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c27 of user root.
+[[32m  OK  [0m] Started Filebeat sends log files to...h or directly to Elasticsearch..
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c28 of user root.
+[[32m  OK  [0m] Stopped Filebeat sends log files to...h or directly to Elasticsearch..
+[[32m  OK  [0m] Started Filebeat sends log files to...h or directly to Elasticsearch..
+[[32m  OK  [0m] Stopped Filebeat sends log files to...h or directly to Elasticsearch..
+[[32m  OK  [0m] Started Filebeat sends log files to...h or directly to Elasticsearch..
+[[32m  OK  [0m] Stopped Filebeat sends log files to...h or directly to Elasticsearch..
+[[32m  OK  [0m] Started Filebeat sends log files to...h or directly to Elasticsearch..
+[  161.967626] cloud-init[2606]: Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+[  162.019157] cloud-init[2606]: Cleaning repos: amzn2-core amzn2extra-docker amzn2extra-nginx1
+[  162.103375] cloud-init[2606]: 12 metadata files removed
+[  162.105940] cloud-init[2606]: 4 sqlite files removed
+[  162.108922] cloud-init[2606]: 0 metadata files removed
+[[32m  OK  [0m] Stopped Filebeat sends log files to...h or directly to Elasticsearch..
+[[32m  OK  [0m] Started Filebeat sends log files to...h or directly to Elasticsearch..
+[[32m  OK  [0m] Stopped Filebeat sends log files to...h or directly to Elasticsearch..
+[[1;31mFAILED[0m] Failed to start Filebeat sends log ...h or directly to Elasticsearch..
+See 'systemctl status filebeat.service' for details.
+[  162.977693] cloud-init[2606]: Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+[  166.954781] cloud-init[2606]: Resolving Dependencies
+[  166.957281] cloud-init[2606]: --> Running transaction check
+[  166.958512] cloud-init[2606]: ---> Package nginx.x86_64 1:1.20.0-2.amzn2.0.4 will be installed
+[  167.025211] cloud-init[2606]: --> Processing Dependency: nginx-filesystem = 1:1.20.0-2.amzn2.0.4 for package: 1:nginx-1.20.0-2.amzn2.0.4.x86_64
+[  167.530756] cloud-init[2606]: --> Processing Dependency: nginx-filesystem for package: 1:nginx-1.20.0-2.amzn2.0.4.x86_64
+[  167.535925] cloud-init[2606]: --> Processing Dependency: libssl.so.1.1(OPENSSL_1_1_1)(64bit) for package: 1:nginx-1.20.0-2.amzn2.0.4.x86_64
+[  167.549658] cloud-init[2606]: --> Processing Dependency: libssl.so.1.1(OPENSSL_1_1_0)(64bit) for package: 1:nginx-1.20.0-2.amzn2.0.4.x86_64
+[  167.555395] cloud-init[2606]: --> Processing Dependency: libcrypto.so.1.1(OPENSSL_1_1_0)(64bit) for package: 1:nginx-1.20.0-2.amzn2.0.4.x86_64
+[  167.560987] cloud-init[2606]: --> Processing Dependency: libssl.so.1.1()(64bit) for package: 1:nginx-1.20.0-2.amzn2.0.4.x86_64
+[  167.569430] cloud-init[2606]: --> Processing Dependency: libprofiler.so.0()(64bit) for package: 1:nginx-1.20.0-2.amzn2.0.4.x86_64
+[  167.575920] cloud-init[2606]: --> Processing Dependency: libcrypto.so.1.1()(64bit) for package: 1:nginx-1.20.0-2.amzn2.0.4.x86_64
+[  167.588073] cloud-init[2606]: --> Running transaction check
+[  167.590708] cloud-init[2606]: ---> Package gperftools-libs.x86_64 0:2.6.1-1.amzn2 will be installed
+[  167.604268] cloud-init[2606]: ---> Package nginx-filesystem.noarch 1:1.20.0-2.amzn2.0.4 will be installed
+[  167.610360] cloud-init[2606]: ---> Package openssl11-libs.x86_64 1:1.1.1g-12.amzn2.0.4 will be installed
+[  167.622290] cloud-init[2606]: --> Processing Dependency: openssl11-pkcs11 for package: 1:openssl11-libs-1.1.1g-12.amzn2.0.4.x86_64
+[  167.631086] cloud-init[2606]: --> Running transaction check
+[  167.633941] cloud-init[2606]: ---> Package openssl11-pkcs11.x86_64 0:0.4.10-6.amzn2.0.1 will be installed
+[  168.235767] cloud-init[2606]: --> Finished Dependency Resolution
+[  168.278479] cloud-init[2606]: Dependencies Resolved
+[  168.283098] cloud-init[2606]: ================================================================================
+[  168.287423] cloud-init[2606]: Package            Arch     Version                  Repository           Size
+[  168.291665] cloud-init[2606]: ================================================================================
+[  168.296752] cloud-init[2606]: Installing:
+[  168.304245] cloud-init[2606]: nginx              x86_64   1:1.20.0-2.amzn2.0.4     amzn2extra-nginx1   579 k
+[  168.308479] cloud-init[2606]: Installing for dependencies:
+[  168.316051] cloud-init[2606]: gperftools-libs    x86_64   2.6.1-1.amzn2            amzn2-core          274 k
+[  168.323668] cloud-init[2606]: nginx-filesystem   noarch   1:1.20.0-2.amzn2.0.4     amzn2extra-nginx1    23 k
+[  168.327969] cloud-init[2606]: openssl11-libs     x86_64   1:1.1.1g-12.amzn2.0.4    amzn2-core          1.4 M
+[  168.336494] cloud-init[2606]: openssl11-pkcs11   x86_64   0.4.10-6.amzn2.0.1       amzn2-core           61 k
+[  168.352079] cloud-init[2606]: Transaction Summary
+[  168.354457] cloud-init[2606]: ================================================================================
+[  168.364092] cloud-init[2606]: Install  1 Package (+4 Dependent packages)
+[  168.367119] cloud-init[2606]: Total download size: 2.3 M
+[  168.369670] cloud-init[2606]: Installed size: 6.6 M
+[  168.380119] cloud-init[2606]: Downloading packages:
+[  168.584087] cloud-init[2606]: --------------------------------------------------------------------------------
+[  168.588542] cloud-init[2606]: Total                                              8.2 MB/s | 2.3 MB  00:00
+[  168.592684] cloud-init[2606]: Running transaction check
+[  168.610833] cloud-init[2606]: Running transaction test
+[  168.661079] cloud-init[2606]: Transaction test succeeded
+[  168.663241] cloud-init[2606]: Running transaction
+[  168.672594] cloud-init[2606]: Warning: RPMDB altered outside of yum.
+[  169.423482] cloud-init[2606]: Installing : 1:openssl11-libs-1.1.1g-12.amzn2.0.4.x86_64                  1/5
+[  169.552837] cloud-init[2606]: Installing : openssl11-pkcs11-0.4.10-6.amzn2.0.1.x86_64                   2/5
+[  169.779530] cloud-init[2606]: Installing : gperftools-libs-2.6.1-1.amzn2.x86_64                         3/5
+[  170.045942] cloud-init[2606]: Installing : 1:nginx-filesystem-1.20.0-2.amzn2.0.4.noarch                 4/5
+[  170.341669] cloud-init[2606]: Installing : 1:nginx-1.20.0-2.amzn2.0.4.x86_64                            5/5
+[[32m  OK  [0m] Stopped Dynamically Generate Message Of The Day.
+         Stopping Dynamically Generate Message Of The Day...
+[  170.353220] cloud-init[2606]: Verifying  : openssl11-pkcs11-0.4.10-6.amzn2.0.1.x86_64                   1/5
+         Starting Dynamically Generate Message Of The Day...
+[  170.363896] cloud-init[2606]: Verifying  : 1:nginx-1.20.0-2.amzn2.0.4.x86_64                            2/5
+[  170.372582] cloud-init[2606]: Verifying  : 1:nginx-filesystem-1.20.0-2.amzn2.0.4.noarch                 3/5
+[  170.382205] cloud-init[2606]: Verifying  : 1:openssl11-libs-1.1.1g-12.amzn2.0.4.x86_64                  4/5
+[  170.523261] cloud-init[2606]: Verifying  : gperftools-libs-2.6.1-1.amzn2.x86_64                         5/5
+[  170.524242] cloud-init[2606]: Installed:
+[  170.524572] cloud-init[2606]: nginx.x86_64 1:1.20.0-2.amzn2.0.4
+[  170.525040] cloud-init[2606]: Dependency Installed:
+[  170.525517] cloud-init[2606]: gperftools-libs.x86_64 0:2.6.1-1.amzn2
+[  170.525986] cloud-init[2606]: nginx-filesystem.noarch 1:1.20.0-2.amzn2.0.4
+[  170.526465] cloud-init[2606]: openssl11-libs.x86_64 1:1.1.1g-12.amzn2.0.4
+[  170.526953] cloud-init[2606]: openssl11-pkcs11.x86_64 0:0.4.10-6.amzn2.0.1
+[  170.552351] cloud-init[2606]: Complete!
+[  170.787155] cloud-init[2606]: Installing nginx
+[  170.788611] cloud-init[2606]: 0  ansible2                 available    \
+[  170.789931] cloud-init[2606]: [ =2.4.2  =2.4.6  =2.8  =stable ]
+[  170.791535] cloud-init[2606]: 2  httpd_modules            available    [ =1.0  =stable ]
+[  170.792988] cloud-init[2606]: 3  memcached1.5             available    \
+[  170.793990] cloud-init[2606]: [ =1.5.1  =1.5.16  =1.5.17 ]
+[  170.796050] cloud-init[2606]: 5  postgresql9.6            available    \
+[  170.796249] cloud-init[2606]: [ =9.6.6  =9.6.8  =stable ]
+[  170.796410] cloud-init[2606]: 6  postgresql10             available    [ =10  =stable ]
+[  170.796563] cloud-init[2606]: 9  R3.4                     available    [ =3.4.3  =stable ]
+[  170.796710] cloud-init[2606]: 10  rust1                    available    \
+[  170.796858] cloud-init[2606]: [ =1.22.1  =1.26.0  =1.26.1  =1.27.2  =1.31.0  =1.38.0
+[  170.797005] cloud-init[2606]: =stable ]
+[  170.797159] cloud-init[2606]: 11  vim                      available    [ =8.0  =stable ]
+[  170.797307] cloud-init[2606]: 15  php7.2                   available    \
+[  170.797450] cloud-init[2606]: [ =7.2.0  =7.2.4  =7.2.5  =7.2.8  =7.2.11  =7.2.13  =7.2.14
+[  170.797585] cloud-init[2606]: =7.2.16  =7.2.17  =7.2.19  =7.2.21  =7.2.22  =7.2.23
+[  170.797750] cloud-init[2606]: =7.2.24  =7.2.26  =stable ]
+[  170.797895] cloud-init[2606]: 17  lamp-mariadb10.2-php7.2  available    \
+[  170.798037] cloud-init[2606]: [ =10.2.10_7.2.0  =10.2.10_7.2.4  =10.2.10_7.2.5
+[  170.798196] cloud-init[2606]: =10.2.10_7.2.8  =10.2.10_7.2.11  =10.2.10_7.2.13
+[  170.798340] cloud-init[2606]: =10.2.10_7.2.14  =10.2.10_7.2.16  =10.2.10_7.2.17
+[  170.798485] cloud-init[2606]: =10.2.10_7.2.19  =10.2.10_7.2.22  =10.2.10_7.2.23
+[  170.798628] cloud-init[2606]: =10.2.10_7.2.24  =stable ]
+[  170.798772] cloud-init[2606]: 18  libreoffice              available    \
+[  170.798923] cloud-init[2606]: [ =5.0.6.2_15  =5.3.6.1  =stable ]
+[  170.799057] cloud-init[2606]: 19  gimp                     available    [ =2.8.22 ]
+[  170.799202] cloud-init[2606]: 20  docker=latest            enabled      \
+[  170.799341] cloud-init[2606]: [ =17.12.1  =18.03.1  =18.06.1  =18.09.9  =stable ]
+[  170.799481] cloud-init[2606]: 21  mate-desktop1.x          available    \
+[  170.799621] cloud-init[2606]: [ =1.19.0  =1.20.0  =stable ]
+[  170.799768] cloud-init[2606]: 22  GraphicsMagick1.3        available    \
+[  170.799902] cloud-init[2606]: [ =1.3.29  =1.3.32  =1.3.34  =stable ]
+[  170.800061] cloud-init[2606]: 23  tomcat8.5                available    \
+[  170.800198] cloud-init[2606]: [ =8.5.31  =8.5.32  =8.5.38  =8.5.40  =8.5.42  =8.5.50
+[  170.800333] cloud-init[2606]: =stable ]
+[  170.800462] cloud-init[2606]: 24  epel                     available    [ =7.11  =stable ]
+[  170.800596] cloud-init[2606]: 25  testing                  available    [ =1.0  =stable ]
+[  170.800733] cloud-init[2606]: 26  ecs                      available    [ =stable ]
+[  170.800865] cloud-init[2606]: 27  corretto8                available    \
+[  170.800999] cloud-init[2606]: [ =1.8.0_192  =1.8.0_202  =1.8.0_212  =1.8.0_222  =1.8.0_232
+[  170.801139] cloud-init[2606]: =1.8.0_242  =stable ]
+[  170.801303] cloud-init[2606]: 28  firecracker              available    [ =0.11  =stable ]
+[  170.801435] cloud-init[2606]: 29  golang1.11               available    \
+[  170.801567] cloud-init[2606]: [ =1.11.3  =1.11.11  =1.11.13  =stable ]
+[  170.801704] cloud-init[2606]: 30  squid4                   available    [ =4  =stable ]
+[  170.801840] cloud-init[2606]: 31  php7.3                   available    \
+[  170.801978] cloud-init[2606]: [ =7.3.2  =7.3.3  =7.3.4  =7.3.6  =7.3.8  =7.3.9  =7.3.10
+[  170.802114] cloud-init[2606]: =7.3.11  =7.3.13  =stable ]
+[  170.802250] cloud-init[2606]: 32  lustre2.10               available    \
+[  170.802392] cloud-init[2606]: [ =2.10.5  =2.10.8  =stable ]
+[  170.802529] cloud-init[2606]: 33  java-openjdk11           available    [ =11  =stable ]
+[  170.802666] cloud-init[2606]: 34  lynis                    available    [ =stable ]
+[  170.802803] cloud-init[2606]: 35  kernel-ng                available    [ =stable ]
+[  170.802940] cloud-init[2606]: 36  BCC                      available    [ =0.x  =stable ]
+[  170.803076] cloud-init[2606]: 37  mono                     available    [ =5.x  =stable ]
+[  170.803211] cloud-init[2606]: 38  nginx1=latest            enabled      [ =stable ]
+[  170.917920] cloud-init[2606]: 39  ruby2.6                  available    [ =2.6  =stable ]
+[  170.921964] cloud-init[2606]: 40  mock                     available    [ =stable ]
+[  170.925233] cloud-init[2606]: 41  postgresql11             available    [ =11  =stable ]
+[  170.928609] cloud-init[2606]: 42  php7.4                   available    [ =stable ]
+[  170.931841] cloud-init[2606]: 43  livepatch                available    [ =stable ]
+[  170.935269] cloud-init[2606]: 44  python3.8                available    [ =stable ]
+[  170.938623] cloud-init[2606]: 45  haproxy2                 available    [ =stable ]
+[  170.941929] cloud-init[2606]: 46  collectd                 available    [ =stable ]
+[  170.945506] cloud-init[2606]: 47  aws-nitro-enclaves-cli   available    [ =stable ]
+[  170.948814] cloud-init[2606]: 48  R4                       available    [ =stable ]
+[  170.953123] cloud-init[2606]: 49  kernel-5.4               available    [ =stable ]
+[  170.956441] cloud-init[2606]: 50  selinux-ng               available    [ =stable ]
+[  170.959846] cloud-init[2606]: 51  php8.0                   available    [ =stable ]
+[  170.964082] cloud-init[2606]: 52  tomcat9                  available    [ =stable ]
+[  170.967483] cloud-init[2606]: 53  unbound1.13              available    [ =stable ]
+[  170.971078] cloud-init[2606]: 54  mariadb10.5              available    [ =stable ]
+[  170.975711] cloud-init[2606]: 55  kernel-5.10              available    [ =stable ]
+[  170.984778] cloud-init[2606]: 56  redis6                   available    [ =stable ]
+[  170.999897] cloud-init[2606]: 57  ruby3.0                  available    [ =stable ]
+[  171.008091] cloud-init[2606]: 58  postgresql12             available    [ =stable ]
+[  171.012228] cloud-init[2606]: 59  postgresql13             available    [ =stable ]
+[  171.016623] cloud-init[2606]: 60  mock2                    available    [ =stable ]
+[  171.027731] cloud-init[2606]: 61  dnsmasq2.85              available    [ =stable ]
+[[32m  OK  [0m] Started Session c29 of user root.
+[  172.185522] cloud-init[2606]: Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+[  172.214431] cloud-init[2606]: Existing lock /var/run/yum.pid: another copy is running as pid 11202.
+[  172.224269] cloud-init[2606]: Another app is currently holding the yum lock; waiting for it to exit...
+[  172.226483] cloud-init[2606]: The other application is: yum
+[  172.228499] cloud-init[2606]: Memory :  36 M RSS (254 MB VSZ)
+[  172.229583] cloud-init[2606]: Started: Tue Jan 18 05:56:52 2022 - 00:01 ago
+[  172.230896] cloud-init[2606]: State  : Running, pid: 11202
+[  174.233266] cloud-init[2606]: Another app is currently holding the yum lock; waiting for it to exit...
+[  174.234737] cloud-init[2606]: The other application is: yum
+[  174.235086] cloud-init[2606]: Memory : 123 M RSS (340 MB VSZ)
+[  174.235560] cloud-init[2606]: Started: Tue Jan 18 05:56:52 2022 - 00:03 ago
+[  174.236494] cloud-init[2606]: State  : Running, pid: 11202
+[  176.236369] cloud-init[2606]: Another app is currently holding the yum lock; waiting for it to exit...
+[  176.237809] cloud-init[2606]: The other application is: yum
+[  176.238171] cloud-init[2606]: Memory : 155 M RSS (373 MB VSZ)
+[  176.238655] cloud-init[2606]: Started: Tue Jan 18 05:56:52 2022 - 00:05 ago
+[  176.239099] cloud-init[2606]: State  : Running, pid: 11202
+[[32m  OK  [0m] Started Dynamically Generate Message Of The Day.
+[  178.697561] cloud-init[2606]: Package 1:nginx-1.20.0-2.amzn2.0.4.x86_64 already installed and latest version
+[  178.699870] cloud-init[2606]: Nothing to do
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c30 of user root.
+[  178.775469] cloud-init[2606]: Created symlink from /etc/systemd/system/multi-user.target.wants/nginx.service to /usr/lib/systemd/system/nginx.service.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c31 of user root.
+[[32m  OK  [0m] Removed slice User Slice of root.
+[[32m  OK  [0m] Created slice User Slice of root.
+[[32m  OK  [0m] Started Session c32 of user root.
+         Starting The nginx HTTP and reverse proxy server...
+[[32m  OK  [0m] Started The nginx HTTP and reverse proxy server.
+[[32m  OK  [0m] Removed slice User Slice of root.
+ci-info: ++++Authorized keys from /home/ec2-user/.ssh/authorized_keys for user ec2-user++++
+ci-info: +---------+-------------------------------------------------+---------+----------+
+ci-info: | Keytype |                Fingerprint (md5)                | Options | Comment  |
+ci-info: +---------+-------------------------------------------------+---------+----------+
+ci-info: | ssh-rsa | 29:7a:7d:7a:fa:ed:4c:8a:46:67:66:c9:d2:34:b7:03 |    -    | priv.pem |
+ci-info: +---------+-------------------------------------------------+---------+----------+
+<14>Jan 18 05:57:00 ec2: 
+<14>Jan 18 05:57:00 ec2: #############################################################
+<14>Jan 18 05:57:00 ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+<14>Jan 18 05:57:00 ec2: 256 SHA256:r0gyNQXQZT+eLKtdEhmxmcse/Zul2wGo4b5IzjDPKKw no comment (ECDSA)
+<14>Jan 18 05:57:00 ec2: 256 SHA256:ZlniJt779JyWF8xkeo7oEk0bIGbR5+wHSB29GmISo10 no comment (ED25519)
+<14>Jan 18 05:57:00 ec2: 2048 SHA256:OThW0hwgp330CBNTUFcYlNkbGkC4ocqMbkP45eP7ekI no comment (RSA)
+<14>Jan 18 05:57:00 ec2: -----END SSH HOST KEY FINGERPRINTS-----
+<14>Jan 18 05:57:00 ec2: #############################################################
+-----BEGIN SSH HOST KEY KEYS-----
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIXOx/xLgPSC/+CTls/41vvirzrPA0IwphevOFl+JwVt0g2vooM2ia+MDXt31ut05dyfDf3goJ8OlEbBUCRguUo= 
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE44H4B+BqitUJ1W/PvVts/cfa6A29rePcUBmgH+0ZXo 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrkVP/UaeNhWKRBX8L9J/LgJTNJV8YtWehFGeHPtmz75mjbn/xeF88ifkuMyC6iU0xVrvFJNk6dYCgVyfwmHTcQBis4AfNlNhkAiPBZSr4fTir1PA2aTye2MIy736YNi6RDTy/XQuz6GU48jGwhzr4wZ2P6IzWQ7x4zjNK8kwgPpVEeQRYL8vSToC4SwqbjQRnZGgJQW5cwrH1ye7wLHXCknqN33ZqVo5g53ksFzgwpp3IBBn4p7BXuUaaaTjOpbVremUnMwREiwPSenDrp/MRFvlACTXro+RkQIkyvIJCYnmA9f3FTR+3jBLKtd/4NtFjg2gTGIALirvl04qAfjO7 
+-----END SSH HOST KEY KEYS-----
+[  179.150450] cloud-init[2606]: Cloud-init v. 19.3-3.amzn2 finished at Tue, 18 Jan 2022 05:57:00 +0000. Datasource DataSourceEc2.  Up 179.14 seconds
+[[32m  OK  [0m] Started Execute cloud user/final scripts.
+[[32m  OK  [0m] Reached target Cloud-init target.
