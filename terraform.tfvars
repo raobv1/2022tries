@@ -1,0 +1,5 @@
+ami_name="ami-04d29b6f966df1537"
+type="t3.large"
+subnetid="subnet-048c8b0e7f36f5b4a"
+sgid="sg-07011e5410964ed95"
+keyname="priv.pem"
